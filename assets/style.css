@@ -1,0 +1,97 @@
+/* Estilo principal para o dashboard */
+body {
+    background-color: #f4f7fa;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+h1, h4 {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+label {
+    font-size: 16px;
+    color: #4CAF50;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.dccGraph {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabelas com rolagem */
+.scrollable-table {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+.scrollable-table::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollable-table::-webkit-scrollbar-thumb {
+    background-color: #4CAF50;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .dccGraph {
+        padding: 10px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
